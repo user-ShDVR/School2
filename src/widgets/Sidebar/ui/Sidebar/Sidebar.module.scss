@@ -7,6 +7,12 @@
 }
 .collapsed {
     width: var(--sidebar-width-collapsed);
+    .switchers {
+        flex-direction: column;
+    }
+    .lang {
+        margin-left: 0;
+    }
 }
 .switchers {
     position: absolute;
